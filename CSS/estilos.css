@@ -1,0 +1,66 @@
+body,html{
+    padding: 0;
+    margin:0;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    position: relative;
+    background-image: url("../Imagenes/fondo.jpeg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.login{
+    width: 300px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background: floralwhite;
+}
+
+div{
+    margin-top: 10px;
+}
+
+.form-login{
+    border-color: black;
+    font: 'Segoe UI' ;
+    border-radius: 8px;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    font: bold 16px Segoe UI;
+}
+
+/*Centrar el logo*/
+#logo{
+    width: 40%;
+    height: 40%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+.boton{
+    margin-top: 15px;
+    width: 90px;
+    height: 35px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,0);
+    font: 16px Segoe UI;
+    text-align: center;
+    border-radius: 5px;
+}
+
+@media (max-widht: 400px){
+    .login{
+        width: 90%;
+    }
+}
